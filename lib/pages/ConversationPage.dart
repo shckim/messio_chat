@@ -6,6 +6,8 @@ import 'package:messiochat/widgets/ChatListWidget.dart';
 class ConversationPage extends StatefulWidget {
   @override
   _ConversationPageState createState() => _ConversationPageState();
+  const ConversationPage();
+
 }
 
 class _ConversationPageState extends State<ConversationPage> {

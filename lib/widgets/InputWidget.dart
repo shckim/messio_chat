@@ -5,6 +5,8 @@ import 'package:messiochat/config/Palette.dart';
 class InputWidget extends StatelessWidget {
   final TextEditingController textEditingController = TextEditingController();
 
+  InputWidget();
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -16,6 +18,7 @@ class InputWidget extends StatelessWidget {
               child: IconButton(
                 icon: Icon(Icons.face),
                 color: Palette.primaryColor,
+                onPressed: (){},
               ),
             ),
             color: Colors.white,
