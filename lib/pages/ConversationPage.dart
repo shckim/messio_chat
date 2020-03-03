@@ -20,9 +20,10 @@ class _ConversationPageState extends State<ConversationPage> {
                 ChatListWidget(),
                 InputWidget()
               ],
-            )
-          ],)
-      ),
+            ),
+          ]
+          )
+      )
     );
   }
 }

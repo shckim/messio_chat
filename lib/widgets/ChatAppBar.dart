@@ -120,5 +120,5 @@ class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   // TODO: implement preferredSize
-  Size get preferredSize => null;
+  Size get preferredSize => Size.fromHeight(height);
 }

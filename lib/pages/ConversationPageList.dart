@@ -13,6 +13,7 @@ class _ConversationPageListState extends State<ConversationPageList> {
       children: <Widget>[
         ConversationPage(),
         ConversationPage(),
+        ConversationPage(),
         ConversationPage()
 
       ],
